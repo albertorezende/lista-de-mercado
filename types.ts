@@ -18,13 +18,6 @@ export interface HistoryEntry {
   totalChecked: number;
 }
 
-export interface UserProfile {
-  id: string;
-  name: string;
-  username: string;
-  passwordHash: string; // Simplificado para simulação local
-}
-
 export const SECTORS = [
   'Hortifruti',
   'Proteínas',
